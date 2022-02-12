@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+    background-color: #F7ECDE;
+}
+.navbar-dark {
+    background-color: #F7ECDE;
+}
+.navbar-dark .navbar-brand {
+    color: #89B5AF;
+    font-size: 2.1875rem;
+    margin-left: 40px;
+    letter-spacing: 2px;
+}
+.navbar-dark .navbar-nav {
+    margin-right: 25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #89B5AF;
+    font-size: 1.5625rem;
+    letter-spacing: 2px;
+}
+.top-container {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 150px auto 30px auto;
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: inline-block;
+    left: 185px;
+}
+.name {
+    font-size: 50px;
+    letter-spacing: 2px;
+    height: 40px;
+    margin-top: 0;
+    color: #89B5AF;
+    position: absolute;
+    top: 210px;
+}
+.job {
+    letter-spacing: 2px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+.email {
+	letter-spacing: 2px;
+    position: absolute;
+    top: 320px;
+    left: 160px;
+    margin: 10px auto 0 auto;
+}
+.contact {
+    letter-spacing: 2px;
+    position: absolute;
+	top: 380px;
+    left: 190px;
+}
+.footer-container {
+    padding-left: 600px;
+}
+.footer-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 35px;
+    text-align: center;
+    color: #89B5AF;
+    letter-spacing: 4px;
+}
